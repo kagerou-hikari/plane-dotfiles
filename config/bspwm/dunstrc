@@ -14,15 +14,15 @@ transparency = 10
 separator_height = 1
 padding = 4
 horizontal_padding = 8
-frame_width = 0
-frame_color = "#181825"
-separator_color = "#6c7086"
+frame_width = 1
+frame_color = "#45475a"
+separator_color = "#313244"
 
 font = JetBrainsMonoNL Nerd Font Mono 9
 
 line_height = 0
 markup = full
-format = "<span size='x-large' font_desc='JetBrainsMonoNL Nerd Font Mono 7' weight='bold' foreground='#f9f9f9'>%s</span>\n%b"
+format = "<span size='x-large' font_desc='JetBrainsMonoNL Nerd Font Mono 6' weight='bold' foreground='#f9f9f9'>%s</span>\n%b"
 alignment = left
 
 idle_threshold = 120
