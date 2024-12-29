@@ -28,7 +28,7 @@ This repository contains dotfiles for configuring various components of a GNU/Li
 > <span style="color:red;">⚠️ **Warning**</span>: Ensure you have the following dependencies installed before running the setup script:
 >
 > ```bash
-> kitty bspwm dunst feh htop zsh neofetch lxappearance-gtk3 mpv neovim pamixer qogir-icon-theme rofi sxhkd ttf-roboto-mono ttf-roboto-mono-nerd ttf-ubuntu-font-family noto-fonts-emoji ttf-jetbrains-mono ttf-maple zathura zathura-pdf-mupdf pactl alsa-utils xclip sweet-gtk-theme-dark bibata-cursor-theme yazi fastcompmgr-git ly
+> kitty bspwm dunst feh htop zsh fastfetch lxappearance-gtk3 mpv neovim pamixer qogir-icon-theme rofi sxhkd ttf-roboto-mono ttf-roboto-mono-nerd ttf-ubuntu-font-family noto-fonts-emoji ttf-jetbrains-mono ttf-maple zathura zathura-pdf-mupdf pactl alsa-utils xclip sweet-gtk-theme-dark bibata-cursor-theme yazi fastcompmgr-git ly imagemagick ttf-jetbrains-mono-nerd
 > ```
 >
 > ❗ Failure to install these dependencies may result in an incomplete or broken setup.

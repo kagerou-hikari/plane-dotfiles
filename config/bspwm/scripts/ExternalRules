@@ -12,7 +12,7 @@ result() {
 # General rules based on class
 case "$class" in
     # Terminals (Category 1)
-    kitty|alacritty|urxvt)
+    kitty|Alacritty|urxvt)
         result "desktop=^1 follow=on center=on"
         ;;
     
@@ -22,7 +22,7 @@ case "$class" in
         ;;
     
     # Browsers (Category 3)
-    firefox|chromium|brave-browser|zen-beta)
+    firefox|chromium|brave-browser|zen-beta|Navigator)
         result "desktop=^3 follow=on center=on"
         ;;
     

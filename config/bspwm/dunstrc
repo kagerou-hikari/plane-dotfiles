@@ -18,11 +18,11 @@ frame_width = 0
 frame_color = "#181825"
 separator_color = "#6c7086"
 
-font = Maple Mono SC NF 9
+font = JetBrainsMonoNL Nerd Font Mono 9
 
 line_height = 0
 markup = full
-format = "<span size='x-large' font_desc='Maple Mono SC NF 7' weight='bold' foreground='#f9f9f9'>%s</span>\n%b"
+format = "<span size='x-large' font_desc='JetBrainsMonoNL Nerd Font Mono 7' weight='bold' foreground='#f9f9f9'>%s</span>\n%b"
 alignment = left
 
 idle_threshold = 120
@@ -42,7 +42,7 @@ max_icon_size = 50
 
 icon_path = /usr/share/icons/Papirus-Dark/48x48/actions/:/usr/share/icons/Papirus-Dark/48x48/apps/:/usr/share/icons/Papirus-Dark/48x48/devices/:/usr/share/icons/Papirus-Dark/48x48/emblems/:/usr/share/icons/Papirus-Dark/48x48/emotes/:/usr/share/icons/Papirus-Dark/48x48/mimetypes/:/usr/share/icons/Papirus-Dark/48x48/places/:/usr/share/icons/Papirus-Dark/48x48/status/
 
-browser = brave
+browser = zen-beta
 
 mouse_left_click = close_current
 mouse_middle_click = do_action

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+case $1 in
+    --create)
+        session_name=$(basename "$PWD")
+        if tmux has-session -t "$session_name" 2>/dev/null; then
+            tmux attach -t "$session_name"
+        else
+            tmux new-session -s "$session_name"
+        fi
+        ;;
+    --list)
+        tmux ls
+        ;;
+    --kill)
+        tmux kill-session -t "$1"
+        ;;
+        *)
+        echo "Usage: $0 {--create|--attach|--list|--kill|--start-manager} [session_name]"
+        echo "  --create [session_name]     - Create a new tmux session with the given name and Attach to an existing tmux session" 
+        echo "  --list                      - List all tmux sessions"
+        echo "  --kill [session_name]       - Kill a tmux session with the given name"
+        ;;
+esac

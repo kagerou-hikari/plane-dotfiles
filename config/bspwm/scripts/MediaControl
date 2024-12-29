@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Set the player
-[ -n "$(pgrep spotify_player)" ] && Control="spotify_player" || Control="mocp"
+[ -n "$(pgrep mocp)" ] && Control="mocp" || Control="chromium"
 
 
 case $Control in

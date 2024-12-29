@@ -8,7 +8,7 @@ case "$1" in
         kitty
     ;;
     --floating)
-        kitty --class=FloaTerm -o initial_window_width=842 -o initial_window_height=495
+        alacritty
     ;;
     --update)
         kitty --hold --class=FloaTerm -o initial_window_width=842 -o initial_window_height=495 -e Updates --update-system
