@@ -124,7 +124,7 @@ if [ ! -d "$backup_folder" ]; then
 fi
 
 # Backup configuration folders and individual files
-for item in bspwm htop kitty mpv neofetch paru bat gtk-3.0 gtk-4.0 nvim yazi tmux yay zathura; do
+for item in bspwm htop kitty mpv fastfetch paru bat gtk-3.0 gtk-4.0 nvim yazi yay zathura; do
     if [ -d "$HOME/.config/$item" ]; then
         mv "$HOME/.config/$item" "$backup_folder/${item}_$date"
         echo "$item folder backed up successfully at $backup_folder/${item}_$date"
@@ -139,7 +139,7 @@ done
 
 
 # Backup specific files in home directory
-for file in .fehbg .zshrc .xinitrc .Xresources .gtkrc-2.0 .bg.png; do
+for file in .fehbg .zshrc .xinitrc .Xresources .gtkrc-2.0 .bg.png .zsh; do
     if [ -f "$HOME/$file" ]; then
         mv "$HOME/$file" "$backup_folder/${file}-backup-$date"
         echo "$file backed up successfully at $backup_folder/${file}-backup-$date"
