@@ -10,7 +10,7 @@ This repository contains dotfiles for configuring various components of a GNU/Li
 
 ### Included Components:
 
-<img src="images/01.png" width="60%" align="right">
+<img src="images/catppuccin/01.png" width="60%" align="right">
 
 | **Component**         | **Name**                                                    |
 | :-------------------- | :---------------------------------------------------------- |
@@ -70,15 +70,35 @@ This repository contains dotfiles for configuring various components of a GNU/Li
 ### [Catppuccin](https://catppuccin.com/)
 
 <p align="center">
-  <img src="images/01.png" width="30%">
-  <img src="images/02.png" width="30%">
-  <img src="images/03.png" width="30%">
+  <img src="images/catppuccin/01.png" width="30%">
+  <img src="images/catppuccin/02.png" width="30%">
+  <img src="images/catppuccin/03.png" width="30%">
 </p>
 <p align="center">
-  <img src="images/04.png" width="30%">
-  <img src="images/05.png" width="30%">
-  <img src="images/06.png" width="30%">
+  <img src="images/catppuccin/04.png" width="30%">
+  <img src="images/catppuccin/05.png" width="30%">
+  <img src="images/catppuccin/06.png" width="30%">
 </p>
+
+### [Pywal](https://github.com/vhyran/dotfiles/tree/pywal)
+
+<p align="center">
+  <img src="images/pywal/01.png" width="30%">
+  <img src="images/pywal/02.png" width="30%">
+  <img src="images/pywal/03.png" width="30%">
+</p>
+<p align="center">
+  <img src="images/pywal/04.png" width="30%">
+  <img src="images/pywal/05.png" width="30%">
+  <img src="images/pywal/06.png" width="30%">
+</p>
+<p align="center">
+  <img src="images/pywal/01.png" width="30%">
+  <img src="images/pywal/02.png" width="30%">
+  <img src="images/pywal/03.png" width="30%">
+</p>
+
+> **Note**: This is an older configuration and may not be compatible with the latest versions of some software packages. Please review and update the configurations as necessary.
 
 For more customization options, please refer to the [options README](options/README.md). This file contains detailed information on how to tweak and personalize various aspects of the dotfiles to better suit your preferences and workflow.
 
